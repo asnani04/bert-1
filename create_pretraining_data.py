@@ -34,8 +34,8 @@ flags.DEFINE_string(
     "output_file", None,
     "Output TF example file (or comma-separated list of files).")
 
-flags.DEFINE_string("vocab_file", None,
-                    "The vocabulary file that the BERT model was trained on.")
+# flags.DEFINE_string("vocab_file", None,
+#                     "The vocabulary file that the BERT model was trained on.")
 
 flags.DEFINE_bool(
     "do_lower_case", True,
