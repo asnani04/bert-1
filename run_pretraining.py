@@ -46,20 +46,20 @@ flags.DEFINE_string(
     "init_checkpoint", None,
     "Initial checkpoint (usually from a pre-trained BERT model).")
 
-flags.DEFINE_integer(
-    "max_seq_length", 128,
-    "The maximum total input sequence length after WordPiece tokenization. "
-    "Sequences longer than this will be truncated, and sequences shorter "
-    "than this will be padded. Must match data generation.")
+# flags.DEFINE_integer(
+#     "max_seq_length", 128,
+#     "The maximum total input sequence length after WordPiece tokenization. "
+#     "Sequences longer than this will be truncated, and sequences shorter "
+#     "than this will be padded. Must match data generation.")
 
-flags.DEFINE_integer(
-    "max_predictions_per_seq", 20,
-    "Maximum number of masked LM predictions per sequence. "
-    "Must match data generation.")
+# flags.DEFINE_integer(
+#     "max_predictions_per_seq", 20,
+#     "Maximum number of masked LM predictions per sequence. "
+#     "Must match data generation.")
 
-flags.DEFINE_bool("do_train", False, "Whether to run training.")
+# flags.DEFINE_bool("do_train", False, "Whether to run training.")
 
-flags.DEFINE_bool("do_eval", False, "Whether to run eval on the dev set.")
+# flags.DEFINE_bool("do_eval", False, "Whether to run eval on the dev set.")
 
 flags.DEFINE_integer("train_batch_size", 32, "Total batch size for training.")
 
