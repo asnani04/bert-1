@@ -33,9 +33,9 @@ flags.DEFINE_string(
     "The config json file corresponding to the pre-trained BERT model. "
     "This specifies the model architecture.")
 
-flags.DEFINE_string(
-    "input_file", None,
-    "Input TF example files (can be a glob or comma separated).")
+# flags.DEFINE_string(
+#     "input_file", None,
+#     "Input TF example files (can be a glob or comma separated).")
 
 flags.DEFINE_string(
     "output_dir", None,
